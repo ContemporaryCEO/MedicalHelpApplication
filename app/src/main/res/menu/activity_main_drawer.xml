@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/main_page"
+            android:title="@string/menu_home" />
+        <item android:id="@+id/nav_burns"
+            android:icon="@drawable/fire"
+            android:title="@string/menu_burns" />
+        <item android:id="@+id/nav_trauma"
+            android:icon="@drawable/trauma_ic"
+            android:title="@string/menu_trauma" />
+        <item android:id="@+id/nav_hemorrhage"
+            android:icon="@drawable/bleeding"
+            android:title="@string/menu_hemorrhage" />
+        <item android:id="@+id/nav_intoxication"
+            android:icon="@drawable/poison"
+            android:title="@string/menu_intoxication" />
+        <item android:id="@+id/nav_freezing"
+            android:icon="@drawable/beef"
+            android:title="@string/menu_freezing" />
+        <item android:id="@+id/nav_asphyxia"
+            android:icon="@drawable/lungs"
+            android:title="@string/menu_asphyxia" />
+        <item android:id="@+id/nav_sunstrike"
+            android:icon="@drawable/fainting"
+            android:title="@string/menu_sunstrike" />
+        <item android:id="@+id/nav_drowning"
+            android:icon="@drawable/drown"
+            android:title="@string/menu_drowning" />
+
+    </group>
+</menu>

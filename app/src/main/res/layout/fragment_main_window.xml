@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainWindowFragment">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/primarySearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standartSpecialMargin" />
+
+    <ListView
+        android:id="@+id/searchContainer"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_below="@+id/primarySearch"
+        android:layout_marginStart="@dimen/standartSpecialMargin"
+        android:layout_marginTop="@dimen/standartSpecialMargin"
+        android:layout_marginEnd="@dimen/standartSpecialMargin"
+        android:layout_marginBottom="@dimen/standartSpecialMargin" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchContainer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/mainWindowTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/standartSpecialMargin"
+                android:text="@string/mainTextTitle"
+                android:textAlignment="center"
+                android:textSize="@dimen/defaultTitleSize" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/mainWindowContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/standartNormalMargin"
+                android:text="@string/mainText"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/defaultContentSize" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

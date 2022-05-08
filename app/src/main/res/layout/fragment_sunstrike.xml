@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.sunstrike.SunstrikeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sunstrikeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/standartSpecialMargin"
+            android:text="@string/LargeTextTitlePlaceholder"
+            android:textAlignment="center"
+            android:textSize="@dimen/defaultTitleSize" />
+
+        <ImageView
+            android:id="@+id/sunstrikeImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standartImageHeight"
+            android:layout_below="@id/sunstrikeContent"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/standartSpecialMargin"
+            android:layout_marginTop="@dimen/standartSpecialMargin"
+            android:layout_marginEnd="@dimen/standartSpecialMargin"
+            android:layout_marginBottom="@dimen/standartSpecialMargin"
+            android:contentDescription="@string/defaultImageDescription"
+            android:src="@drawable/sunstrike" />
+
+        <TextView
+            android:id="@+id/sunstrikeContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sunstrikeTitle"
+            android:layout_margin="@dimen/standartNormalMargin"
+            android:text="@string/LargeTextPlaceholder"
+            android:textSize="@dimen/defaultContentSize" />
+    </RelativeLayout>
+</ScrollView>

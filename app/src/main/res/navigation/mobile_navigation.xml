@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.medicalhelp.ui.main.MainWindowFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_main_window" />
+
+    <fragment android:id="@+id/nav_burns"
+        android:name="com.example.medicalhelp.ui.burns.BurnsFragment"
+        android:label="@string/menu_burns"
+        tools:layout="@layout/fragment_burns" />
+
+    <fragment android:id="@+id/nav_trauma"
+        android:name="com.example.medicalhelp.ui.trauma.TraumaFragment"
+        android:label="@string/menu_trauma"
+        tools:layout="@layout/fragment_trauma" />
+
+    <fragment android:id="@+id/nav_hemorrhage"
+        android:name="com.example.medicalhelp.ui.hemorrhage.HemorrhageFragment"
+        android:label="@string/menu_hemorrhage"
+        tools:layout="@layout/fragment_hemorrhage" />
+
+    <fragment android:id="@+id/nav_intoxication"
+        android:name="com.example.medicalhelp.ui.intoxication.IntoxicationFragment"
+        android:label="@string/menu_intoxication"
+        tools:layout="@layout/fragment_intoxication" />
+
+    <fragment android:id="@+id/nav_freezing"
+        android:name="com.example.medicalhelp.ui.freezing.FreezingFragment"
+        android:label="@string/menu_freezing"
+        tools:layout="@layout/fragment_freezing" />
+
+    <fragment android:id="@+id/nav_asphyxia"
+        android:name="com.example.medicalhelp.ui.asphyxia.AsphyxiaFragment"
+        android:label="@string/menu_asphyxia"
+        tools:layout="@layout/fragment_asphyxia" />
+
+    <fragment android:id="@+id/nav_sunstrike"
+        android:name="com.example.medicalhelp.ui.sunstrike.SunstrikeFragment"
+        android:label="@string/menu_sunstrike"
+        tools:layout="@layout/fragment_sunstrike" />
+
+    <fragment android:id="@+id/nav_drowning"
+        android:name="com.example.medicalhelp.ui.drowning.DrowningFragment"
+        android:label="@string/menu_drowning"
+        tools:layout="@layout/fragment_drowning" />
+
+    <fragment android:id="@+id/nav_blank"
+        android:name="com.example.medicalhelp.utils.BlankFragment"
+        android:label="@string/blank"
+        tools:layout="@layout/fragment_blank" />
+    <fragment android:id="@+id/nav_another"
+        android:name="com.example.medicalhelp.utils.AnotherFragment"
+        android:label="@string/blank"
+        tools:layout="@layout/fragment_another" />
+
+
+</navigation>

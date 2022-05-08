@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Medical Help</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+    <string name="menu_home">Главная</string>
+    <string name="LargeTextPlaceholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis eros placerat, volutpat metus eget, mattis felis. Pellentesque maximus vel sapien at efficitur. Ut justo quam, posuere nec ornare ut, scelerisque ornare libero. Vestibulum lectus lectus, suscipit vehicula dignissim ultrices, accumsan at ante. Fusce convallis tellus mi, id venenatis arcu maximus vel. Sed placerat tortor sit amet lacus ultricies, a tempus orci efficitur. Donec consectetur venenatis sem, at rhoncus leo. Sed enim tellus, cursus sed tempor sit amet, sagittis vel odio. Cras fringilla pharetra lectus, ut laoreet lorem maximus in. Ut quam eros, ultrices eget diam aliquam, venenatis tempus felis. Pellentesque condimentum urna sapien, sit amet tincidunt metus tincidunt id.
+
+Vestibulum mattis rutrum augue non eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis purus dictum, vulputate libero non, consectetur diam. Praesent laoreet nisl in eros mollis, nec aliquam ex finibus. Cras feugiat vestibulum malesuada. Nunc vitae mauris vitae nulla ullamcorper rhoncus. Aenean turpis odio, gravida sed pulvinar eleifend, scelerisque a orci. Aliquam rhoncus turpis a nulla eleifend aliquet. Maecenas vehicula pretium hendrerit. Vestibulum efficitur enim at scelerisque iaculis. Nulla facilisi. Nullam vulputate orci sed gravida auctor.
+
+Mauris quis euismod odio, quis viverra purus. Aliquam id enim sem. Phasellus quis volutpat quam. Donec euismod, sapien non pellentesque viverra, tortor nisl cursus justo, non ultricies est lacus in risus. Sed ac ante facilisis, porttitor urna eget, varius tellus. Donec eleifend at diam sit amet sollicitudin. In in nunc vehicula, fermentum arcu eget, hendrerit turpis. Sed condimentum volutpat velit, vitae aliquet sem faucibus ut. Suspendisse a eros dignissim lorem fringilla mattis sed eget velit. Vestibulum ex justo, hendrerit quis libero at, sodales efficitur odio. Nam eu vehicula eros. Etiam sagittis tellus turpis, id volutpat sem dignissim in.
+
+In ultricies lorem quis augue consequat, eu scelerisque sapien pharetra. Praesent ex ante, finibus vel turpis non, ornare sagittis odio. Vestibulum massa lectus, accumsan nec tortor vel, vehicula dignissim neque. Phasellus in fermentum nulla, vitae imperdiet lectus. Sed accumsan sodales metus, eget malesuada nunc faucibus eget. Ut semper sit amet lectus sed pretium. Nunc fermentum massa in justo bibendum, a accumsan felis consequat. Pellentesque sed efficitur tellus. Etiam bibendum imperdiet tincidunt. Cras mattis magna non lorem venenatis, quis aliquet sem tempus. Etiam at ligula vehicula, tempus est dapibus, sagittis odio. Ut hendrerit urna vitae urna lobortis molestie id sodales turpis. Sed iaculis eget metus ac convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Morbi nec dictum nisi. Fusce sed velit congue, rutrum sem imperdiet, commodo leo. Pellentesque ac convallis erat, sit amet ultrices justo. Mauris venenatis, quam quis porta porttitor, odio lacus feugiat justo, nec condimentum dolor risus at sapien. Nam laoreet mauris non arcu feugiat, non eleifend nibh sagittis. Maecenas dapibus sed tellus eu ultrices. Duis vel vulputate turpis.</string>
+    <string name="LargeTextTitlePlaceholder">Where can I get some?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_burns">Ожоги</string>
+    <string name="menu_trauma">Травмы</string>
+    <string name="defaultImageDescription">description here...</string>
+    <string name="menu_hemorrhage">Кровотечения</string>
+    <string name="menu_intoxication">Отравления</string>
+    <string name="menu_freezing">Обморожения</string>
+    <string name="menu_asphyxia">Асфиксия</string>
+    <string name="menu_sunstrike">Солнечный удар</string>
+    <string name="menu_drowning">Помощь утопающему</string>
+    <string name="databaseLogPrefix">DAO</string>
+    <string name="databaseFetch">Fetching database</string>
+    <string name="emptyDatabase">Empty db detected, uploading...</string>
+    <string name="databaseLoadTrue">Database has been initialized</string>
+    <string name="fetchDatabaseWithDoReload">Fetching db with doReload tag...</string>
+    <string name="databaseUpdateStart">Db update initiated...</string>
+    <string name="databaseUpdateEnd">Db update completed</string>
+    <string name="databaseEmptyUpdateAttempt">Empty db detected, uploading...</string>
+    <string name="databaseFetchOK">Database status OK</string>
+    <string name="databaseLoggerPrefix">DAOl</string>
+    <string name="updateErrorNoEntry">No such entry</string>
+    <string name="onSearchOnItemClickExc">Exception while looking for element from db</string>
+    <string name="blank">blank</string>
+    <string name="mainTextTitle">
+        Универсальный алгоритм оказания первой помощи
+    </string>
+    <string name="mainText">
+        1.Провести оценку обстановки и обеспечить безопасные условия для оказания первой помощи: \n
+        1) определить угрожающие факторы для собственной жизни и здоровья; \n
+        2) определить угрожающие факторы для жизни и здоровья пострадавшего;\n
+        3) устранить угрожающие факторы для жизни и здоровья;\n
+        4) прекратить действие повреждающих факторов на пострадавшего;\n
+        5) при необходимости, оценить количество пострадавших;\n
+        6) извлечь пострадавшего из транспортного средства или других труднодоступных мест\n
+        7) переместить пострадавшего (при необходимости).\n
+        \n\n
+
+        2. Определить наличие сознания у пострадавшего. При наличии сознания перейти к п. 7 Алгоритма; при отсутствии сознания перейти к п. 3 Алгоритма.\n
+        3. Восстановить проходимость дыхательных путей и определить признаки жизни:\n
+        1) запрокинуть голову с подъемом подбородка;\n
+        2) выдвинуть нижнюю челюсть;\n
+        3) определить наличие нормального дыхания с помощью слуха, зрения и осязания;\n
+        4) определить наличие кровообращения путем проверки пульса на магистральных артериях.\n
+
+        \n\n
+
+        4. Вызвать скорую медицинскую помощь, другие специальные службы. Вызвать скорую медицинскую помощь, другие специальные службы, сотрудники которых обязаны оказывать первую помощь в соответствии с федеральным законом или со специальным правилом
+
+        5. Начать проведение сердечно-легочной реанимации путем чередования:
+        1) давления руками на грудину пострадавшего;
+        2) искусственного дыхания «Рот ко рту», «Рот к носу», с использованием устройств для искусственного дыхания.
+
+        6. При появлении (или наличии) признаков жизни выполнить мероприятия по поддержанию проходимости дыхательных путей одним или несколькими способами:
+        1) придать устойчивое боковое положение;
+        2) запрокинуть голову с подъемом подбородка; 3) выдвинуть нижнюю челюсть.
+
+        7. Провести обзорный осмотр пострадавшего и осуществить мероприятия по временной остановке наружного кровотечения одним или несколькими способами:
+        1) наложением давящей повязки;
+        2) пальцевым прижатием артерии;
+        3) прямым давлением на рану;
+        4) максимальным сгибанием конечности в суставе;
+        5) наложением жгута.
+
+        8. Провести подробный осмотр пострадавшего в целях выявления признаков травм, отравлений и других состояний, угрожающих его жизни и здоровью, осуществить вызов скорой медицинской помощи (если она не была вызвана ранее):
+        1) провести осмотр головы;
+        2) провести осмотр шеи;
+        3) провести осмотр груди;
+        4) провести осмотр спины;
+        5) провести осмотр живота и таза;
+        6) осмотр конечностей;
+        7) наложить повязки при травмах различных областей тела, в том числе окклюзионную (герметизирующую) при ранении грудной клетки.
+
+        9. Придать пострадавшему оптимальное положение тела. Для обеспечения ему комфорта и уменьшения степени его страданий.
+
+        10. Постоянно контролировать состояние пострадавшего и оказывать психологическую поддержку
+Наличие сознания, дыхания и кровообращения
+
+    </string>
+    <string name="featureDino">dino</string>
+</resources>
