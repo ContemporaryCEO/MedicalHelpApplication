@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/popap/AndroidStudioProjects/MedicalHelpApplication/app/src/main/res/layout/app_bar_main.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/popap/AndroidStudioProjects/MedicalHelpApplication/app/src/main/res/layout/content_main.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/popap/AndroidStudioProjects/MedicalHelpApplication/app/src/main/res/layout/nav_header_main.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/popap/AndroidStudioProjects/MedicalHelpApplication/app/src/main/res/menu/activity_main_drawer.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/popap/AndroidStudioProjects/MedicalHelpApplication/app/src/main/res/menu/main.xml" value="0.32395833333333335" />
         <entry key="..\:/data/_projects/MedicalHelp/app/src/main/res/layout/activity_main.xml" value="0.28072916666666664" />
         <entry key="..\:/data/_projects/MedicalHelp/app/src/main/res/layout/app_bar_main.xml" value="0.28072916666666664" />
         <entry key="..\:/data/_projects/MedicalHelp/app/src/main/res/layout/content_main.xml" value="0.30416666666666664" />
