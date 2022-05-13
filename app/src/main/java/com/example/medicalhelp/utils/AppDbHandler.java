@@ -124,13 +124,21 @@ public class AppDbHandler {
 
     //   Обновление каждого элемента базы данных
     private static void _updateEntries(Context context, @NonNull EntryDao db) {
-        db.getAllEntries().forEach(entry -> {
-            Entry[] entries = _initiateRecordsOnStartUp();
-            Entry _patternEntry = Arrays.stream(entries).filter(
-                    entry1 -> entry1.id == entry.id
-            ).findAny().orElseThrow(() -> new RuntimeException(context.getString(R.string.updateErrorNoEntry)));
-            db.update(_patternEntry);
-        });
+        List<Entry> allEntries = db.getAllEntries();
+        try {
+            allEntries.forEach(entry -> {
+                Entry[] entries = _initiateRecordsOnStartUp();
+                Entry _patternEntry = Arrays.stream(entries).filter(
+                        entry1 -> entry1.id == entry.id
+                ).findAny().orElseThrow(() -> new RuntimeException(context.getString(R.string.updateErrorNoEntry)));
+                db.update(_patternEntry);
+            });
+        } catch (Exception e) {
+            Log.i(context.getString(R.string.databaseLogPrefix),
+                    "Troubles while update. Invoke force reload");
+            allEntries.forEach(db::delete);
+            db.insertAll(_initiateRecordsOnStartUp());
+        }
     }
 
     // Вывод в консоль записей базы данных

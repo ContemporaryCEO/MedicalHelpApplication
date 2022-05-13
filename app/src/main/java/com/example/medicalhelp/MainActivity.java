@@ -10,10 +10,9 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.medicalhelp.databinding.ActivityMainBinding;
-import com.example.medicalhelp.utils.AppDbHandler;
 import com.example.medicalhelp.dbs.ApplicationDatabase;
+import com.example.medicalhelp.utils.AppDbHandler;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
     public final int[] MENU_ITEMS_IDES =
